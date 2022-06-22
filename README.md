@@ -4,6 +4,7 @@ A node typescript structure example.
 # Technologies
 * nodejs
 * express
+* dotenv
 * typescript
 * eslint
 * jest
