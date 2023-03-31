@@ -8,4 +8,6 @@ A node typescript structure example.
 * typescript
 * eslint
 * jest
+* ts-jest
+* ts-node-dev
 * babel
