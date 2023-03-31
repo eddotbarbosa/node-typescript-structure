@@ -1,0 +1,24 @@
+{
+  "name": "node-typescript-structure-v2",
+  "version": "1.0.0",
+  "description": "a node typescript structure example",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src !src/**/*.spec.* !src/**/*.test.*",
+    "test": "vitest"
+  },
+  "keywords": ["node", "typescript", "vitest"],
+  "author": "Eduardo Barbosa <ebdotcontact@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.3",
+    "vitest": "^0.29.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
