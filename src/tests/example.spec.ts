@@ -1,7 +1,7 @@
-import {describe, test, expect} from 'vitest';
+import {describe, it, expect} from 'vitest';
 
 describe('tests example', () => {
-  test('should pass when result match', () => {
+  it('should pass when result match', () => {
     expect(2 + 2).toEqual(4);
   });
 });
