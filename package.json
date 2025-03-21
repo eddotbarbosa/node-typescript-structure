@@ -1,5 +1,5 @@
 {
-  "name": "node-typescript-structure-v2",
+  "name": "node-typescript-structure",
   "version": "1.0.0",
   "description": "a node typescript structure example",
   "main": "src/server.ts",
