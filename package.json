@@ -9,10 +9,15 @@
     "build": "tsup src !src/**/*.spec.* !src/**/*.test.*",
     "test": "vitest"
   },
-  "keywords": ["node", "typescript", "vitest"],
+  "keywords": [
+    "node",
+    "typescript",
+    "vitest"
+  ],
   "author": "Eduardo Barbosa <ebdotcontact@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.14.0",
     "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.3",

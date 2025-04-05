@@ -109,9 +109,9 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*"], /* Specifies an array of filenames or patterns that should be skipped when resolving include. */
   "exclude": [
     "src/**/*.spec.ts",
     "src/**/*.test.ts"
-  ]
+  ] /* Specifies an array of filenames or patterns that should be skipped when resolving include. */
 }
